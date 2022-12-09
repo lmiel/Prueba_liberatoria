@@ -1,5 +1,13 @@
 m = 1000000
 
+"""def fibonacci(n):
+    a = 0 
+    b == 1
+    for i in range(n):
+        a = b
+        b = a + b
+    return b"""
+
 def fibonacci(n):
     a = 0
     b = 1
@@ -14,5 +22,4 @@ def fibonacci(n):
             b = c
         return b
   
-print(fibonacci(m))
-
+print(fibonacci(9))

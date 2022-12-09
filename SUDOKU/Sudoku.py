@@ -29,5 +29,3 @@ def solucionar():
         for columna in range(0,altura):
             if cuadricula[fila][columna] == 0:
                 for numero in range(0,10):
-                    if repaso(fila,columna,numero):
-                        cuadricula[fila][columna] = 0
